@@ -1,4 +1,4 @@
-FROM golang:1.10.1
+FROM golang:1.12.5-stretch
 
 RUN go get -u github.com/motemen/gore
 RUN go get -u github.com/nsf/gocode
